@@ -1,16 +1,16 @@
 */
 
 body {
-	margin: 50;
+	margin: 0;
 	padding: 0;
 	background: #efeee7;
 	font-size: 18px;
 	line-height: 150%;
 	font-family: "Georgia", "Times New Roman", Times, serif; 
-	color: #333333;
+	color: #77;
 }
 header {
-	background: #d21034;
+	background: #fff;
 }
 h1 {
 	background: #333333;
@@ -22,19 +22,19 @@ h1 {
 	margin-bottom: 20px;
 }
 h2 {
-	font-size: 50;
+	font-size: 24px;
 }
 a {
 	color: #d21034;
 }
 .container {
-	width: 1024px;
+	width: 2048px;
 	margin: 0 auto;
 }
 #main-bio,
 #contact-info,
 #bio-image {
-	float: left;
+	float: left;width:50%:
 }
 #main-bio {
 	width: 70%;
@@ -45,5 +45,5 @@ a {
 #bio-image {
 	width: 200px;
 	height: 200px;
-	margin-right: 20px;
+	margin-right: 40px;
 }
