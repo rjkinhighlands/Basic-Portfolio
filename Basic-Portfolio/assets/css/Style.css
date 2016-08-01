@@ -4,25 +4,22 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #efeee7;
-	font-size: 18px;
-	line-height: 150%;
+	font-size: 24px;
+	line-height: 32px;
 	font-family: "Georgia", "Times New Roman", Times, serif; 
-	color: #77;
+	color: #777777;
 }
 header {
 	background: #fff;
 }
 h1 {
-	background: #333333;
-	padding: 20px 0;
-	color: #eee;
-	margin: 0;
-	font-size: 28px;
-	text-align: center;
-	margin-bottom: 20px;
+	background: #ccc;
+    padding: 80px;
+    margin-bottom: 20px;
+    color: #333;
 }
 h2 {
-	font-size: 24px;
+	font-size: 50px;
 }
 a {
 	color: #d21034;
@@ -40,7 +37,7 @@ a {
 	width: 70%;
 }
 #contact-info {
-	width: 30%;
+	width: 100%;
 }
 #bio-image {
 	width: 200px;
