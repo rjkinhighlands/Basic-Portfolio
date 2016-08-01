@@ -1,4 +1,8 @@
 */
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
 
 body {
 	margin: 0;
@@ -11,6 +15,13 @@ body {
 }
 header {
 	background: #fff;
+	padding: 80px;
+    margin-bottom: 20px;
+    color: #333;
+}
+* {
+    box-sizing: border-box;
+    text-align: center;
 }
 h1 {
 	background: #ccc;
