@@ -7,56 +7,89 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #efeee7;
+	background: #ffffff;
 	font-size: 24px;
 	line-height: 32px;
 	font-family: "Georgia", "Times New Roman", Times, serif; 
 	color: #777777;
+	background-image: "./assets/css/images/MainBackgroud.png";
 }
 header {
 	background: #4aaaa5;
-	padding: 80px;
+	padding: 10px;
     margin-bottom: 0px;
     color: #ffffff;
+    border: 10px solid #eee;
 }
 section {
     padding: 20px;
     background: #ccc;
     margin-bottom: 20px;
 }
+#left {
+    float: left;
+    width: 50%;
+    background: #fff;
+    color:#777777;
+}
+#right {
+    float: middle;
+    width: 50%;
+    background: #fff;
+    color: #777777;
+}
+#full {
+    clear: both;
+    width: 100%;
+    background: #eee;
+    overflow: auto;
+}
+#division {
+    background: #4aaaa5;
+    padding: 20px;
+    margin-top: 20px;
+}
 * {
-    box-sizing: 960px;
+    box-sizing: 94px;
     text-align: center;
 }
 h1 {
 	background: #4aaaa5;
-    padding: 80px;
-    margin-bottom: 20px;
     color: #fff;
+    font-size: 30px;
 }
 h2 {
 	font-size: 50px;
 }
-a {
-	color: #d21034;
+p {
+    font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font size:20px;
+}
+footer {
+    background: #666666;
+    padding: 20px;
+    clear: both;
+    color: #fff;
+    font-size: 10px;
 }
 .container {
-	width: 960px;
+	width: 1000px;
 	margin: 0 auto;
 }
 #main-bio,
-#contact-info,
 #bio-image {
 	float: left;width:50%:
 }
 #main-bio {
 	width: 100%;
 }
-#contact-info {
-	width: 45%;
-}
 #bio-image {
-	width: 200px;
-	height: 200px;
-	margin-right: 40px;
+	width: 250px;
+	height: 300px;
+	margin-right: 20px;
 }
