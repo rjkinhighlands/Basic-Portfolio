@@ -3,7 +3,6 @@
   box-sizing: border-box;
   text-align: center;
 }
-
 body {
 	margin: 0;
 	padding: 0;
@@ -12,7 +11,14 @@ body {
 	line-height: 32px;
 	font-family: "Georgia", "Times New Roman", Times, serif; 
 	color: #777777;
-	background-image: "./assets/css/images/MainBackgroud.png";
+}
+#fixed{
+    position:fixed;
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin: 0;
 }
 header {
 	background: #4aaaa5;
@@ -72,10 +78,10 @@ h4 {
 }
 footer {
     background: #666666;
-    padding: 20px;
-    clear: both;
-    color: #fff;
+    padding: 15px;
+    color: #ffffff;
     font-size: 10px;
+    border: 20 solid #fff;
 }
 .container {
 	width: 1000px;
