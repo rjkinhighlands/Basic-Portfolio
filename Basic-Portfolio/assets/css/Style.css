@@ -14,20 +14,25 @@ body {
 	color: #777777;
 }
 header {
-	background: #fff;
+	background: #4aaaa5;
 	padding: 80px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+section {
+    padding: 20px;
+    background: #ccc;
     margin-bottom: 20px;
-    color: #333;
 }
 * {
-    box-sizing: border-box;
+    box-sizing: 960px;
     text-align: center;
 }
 h1 {
-	background: #ccc;
+	background: #4aaaa5;
     padding: 80px;
     margin-bottom: 20px;
-    color: #333;
+    color: #fff;
 }
 h2 {
 	font-size: 50px;
@@ -36,7 +41,7 @@ a {
 	color: #d21034;
 }
 .container {
-	width: 2048px;
+	width: 960px;
 	margin: 0 auto;
 }
 #main-bio,
@@ -45,10 +50,10 @@ a {
 	float: left;width:50%:
 }
 #main-bio {
-	width: 70%;
+	width: 100%;
 }
 #contact-info {
-	width: 100%;
+	width: 45%;
 }
 #bio-image {
 	width: 200px;
