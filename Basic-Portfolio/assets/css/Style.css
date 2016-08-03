@@ -3,56 +3,47 @@
   box-sizing: border-box;
   text-align: center;
 }
-body {
-	margin: 0;
-	padding: 10;
-	background: #ffffff;
-	font-size: 24px;
-	line-height: 32px;
-	font-family: "Georgia", "Times New Roman", Times, serif; 
-	color: #777777;
-}
-#fixed{
-    position:fixed;
-    background: #ffffff;
-    padding: 10px;
-    margin-bottom: 0px;
-    text-align: center;
-    margin: 0
-}
 header {
 	background: #4aaaa5;
 	padding: 10px;
-    margin-bottom: 0px;
+    height: 85px;
+    margin: auto;
+    padding: 100;
     color: #ffffff;
-    border: 10px solid #eee;
+    position: fixed;
+    top: 0;
+}
+body {
+    margin: 0;
+    padding: 100px;
+    background: #ffffff;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Georgia", "Times New Roman", Times, serif; 
+    color: #777777;
 }
 section {
-    padding: 20px;
-    background: #ccc;
-    margin-bottom: 20px;
 }
 #left {
     float: left;
     width: 50%;
-    background: #fff;
+    background: #FFFFFF;
     color:#777777;
 }
 #right {
     float: middle;
     width: 50%;
-    background: #fff;
+    background: #FFFFFF;
     color: #777777;
 }
 #full {
-    clear: both;
-    width: 100%;
-    background: #eee;
+    width: 960px;
+    background: #777777;
     overflow: auto;
 }
 #division {
-    background: #4aaaa5;
-    padding: 20px;
+    background: #FFFFFF;
+    padding: px;
     margin-top: 20px;
 }
 * {
@@ -85,10 +76,10 @@ footer {
 }
 #container {
 	width: 1600;
-	margin: 0 auto;
+	margin: auto;
 }
 #bio-image {
-	float: left;width:50%:
+	float: left; width: 50%:
 }
 #main-bio {
 	width: 100%;
