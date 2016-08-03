@@ -14,9 +14,10 @@ header {
     top: 0;
 }
 body {
+    height: 100%;
+    background:url(../images/MainBackgroud.png);
     margin: 0;
     padding: 100px;
-    background: #ffffff;
     font-size: 24px;
     line-height: 32px;
     font-family: "Georgia", "Times New Roman", Times, serif; 
@@ -24,15 +25,17 @@ body {
 }
 section {
 }
+.container 
+    {width: 960px;}
 #left {
     float: left;
-    width: 50%;
+    width: 550px;
     background: #FFFFFF;
     color:#777777;
 }
 #right {
-    float: middle;
-    width: 50%;
+    float: right;
+    width: 270px;
     background: #FFFFFF;
     color: #777777;
 }
@@ -73,6 +76,7 @@ footer {
     color: #ffffff;
     font-size: 10px;
     border: 20 solid #fff;
+    clear: both;
 }
 #container {
 	width: 1600;
