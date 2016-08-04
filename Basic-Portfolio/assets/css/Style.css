@@ -9,7 +9,7 @@ header {
     border-bottom-width: 4px;
     border-color: #dddddd;
 	background: #FFFFFF;
-    width:auto;
+    width: auto;
     height: 90px;
     font-family: "Georgia", "Times New Roman", Times, serif; 
     color: #ffffff;
@@ -61,17 +61,30 @@ h4 {
     color: #fff;
     font size:20px;
     text-align: center;
+    position: relative;
 }
     /* maincontent rules*/
 h5 {
     text-align: center;
+}
+    /*contact page text*/
+h6 {
+    color: #4aaaa5;
+    width: 650px;
+    text-align: left;
+    font-size: 30px;
+}
+h7 {
+    color: #4aaaa5;
+    width: 650px;
+    font-size: 50px;
 }
 footer {
     border-top-style: solid;
     border-top-width: 9px;
     border-color: #4aaaa5;
     position: absolute;
-    bottom: 400px;
+    bottom: 100px;
     margin:0 auto 0 auto;
     height: 98px;
     line-height: 98px;
@@ -100,6 +113,31 @@ footer {
     background-color: #FFFFFF;
     text-align: center;
 }
+        /* Contact Me Position*/
+#maincontent2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    background: #FFFFFF;
+    float: left;
+    width: 620px;
+    height: 750px;
+    padding:20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+#maincontent3 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    background: #FFFFFF;
+    float: left;
+    width: 600px;
+    height: 100px;
+    padding:0px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
         /* Connect Me Position*/
 #connect {
     border-style: solid;
@@ -112,14 +150,36 @@ footer {
     padding:2px;
     background-color: #FFFFFF;
 }
-#bio-image {
-	float: left;
+#connect2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    background: #FFFFFF;
+    float: right;
+    height: auto;
+    width: 270px;
+    background-color: #FFFFFF;
 }
 #bio-image {
+    float: left;
 	width: 189;
 	height: 283px;
 	margin-right: 30px;
 }
 #logo {
     width: 30%;
+}
+#portfolio-images-left {
+    float: left;
+    width: 75px;
+    height: 75px;
+    padding:5px;
+    margin-left: 30px;
+}
+#portfolio-images-right{
+    float: right;
+    width: 75px;
+    height: 75px;
+    padding:5px;
+    margin-right: 30px;
 }
